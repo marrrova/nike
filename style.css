@@ -1,0 +1,90 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 360px;
+  background: #000;
+}
+header {
+  height: 737px;
+  flex-shrink: 0;
+}
+.logo {
+  display: flex;
+  width: 96px;
+  height: 72px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 33px;
+  margin-left: 18px;
+}
+.logo-text {
+  display: flex;
+  width: 52px;
+  height: 27px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: PT Serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 86px;
+  margin-left: 40px;
+}
+.Frame {
+  width: 45px;
+  height: 25px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 44px;
+  margin-left: 288px;
+}
+.text-a {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  top: 118px;
+  margin-left: 25px;
+}
+.text-b {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  top: 187px;
+  margin-left: 25px;
+}
+.text-c {
+  width: 305px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  top: 250px;
+  margin-left: 28px;
+}
+.boot {
+  position: absolute;
+  top: 291px;
+}
+button {
+  width: 238px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #8e32c6;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 483px;
+  margin-left: 60px;
+}
